@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: devopsghazali/three-tier-web-application-backend:latest
+          image: devopsghazali/three-tier-backend:latest
           ports:
             - containerPort: 5000
           env:
